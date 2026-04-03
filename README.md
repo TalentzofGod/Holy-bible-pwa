@@ -4,8 +4,6 @@ A modern **Progressive Web App (PWA)** Bible built with pure HTML, CSS, and Java
 
 This app allows users to read scripture, search verses, save notes, bookmark passages, listen to audio, and engage with daily devotionals and prayer — all in a clean and simple interface.
 
----
-
 ## ✨ Features
 
 - 📖 Read Bible verses (KJV, NIV, ESV)
@@ -19,13 +17,11 @@ This app allows users to read scripture, search verses, save notes, bookmark pas
 - 🌗 Dark / Light mode toggle
 - 📱 Progressive Web App (Installable + Offline support)
 
----
 
 ## 🚀 Live Demo
 
-> (Add your GitHub Pages link here later)
+https://talentzofgod.github.io/Holy-bible-pwa/
 
----
 
 ## 🛠️ Tech Stack
 
@@ -35,7 +31,5 @@ This app allows users to read scripture, search verses, save notes, bookmark pas
 - Bible API (https://bible-api.com/)
 - Web Speech API
 - Service Workers (PWA)
-
----
 
 ## 📂 Project Structure
