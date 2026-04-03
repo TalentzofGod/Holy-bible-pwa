@@ -20,7 +20,7 @@ This app allows users to read scripture, search verses, save notes, bookmark pas
 
 ## 🚀 Live Demo
 
-https://talentzofgod.github.io/Holy-bible-pwa/
+https://udungeriphymbarr.github.io/Holy-bible-pwa/
 
 
 ## 🛠️ Tech Stack
