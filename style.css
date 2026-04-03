@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+header {
+  background: linear-gradient(90deg, #4c1d95, #1e3a8a);
+  padding: 20px;
+  text-align: center;
+}
+
+#dailyVerse {
+  font-style: italic;
+  color: #c7d2fe;
+  margin-bottom: 10px;
+}
+
+.top-controls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header input, select {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+header button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background: #6366f1;
+  color: white;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.verse {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.verse span {
+  color: #a5b4fc;
+  font-weight: bold;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.highlight-yellow { background: #facc15; color: black; }
+.highlight-blue { background: #60a5fa; color: black; }
+.highlight-green { background: #4ade80; color: black; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+  background: #020617;
+}
