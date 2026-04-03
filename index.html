@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Holy Bible</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>📖 Holy Bible</h1>
+  <p id="dailyVerse"></p>
+
+  <div class="top-controls">
+    <input type="text" id="reference" placeholder="Genesis 1:1">
+    <select id="translation">
+      <option value="kjv">KJV</option>
+      <option value="niv">NIV</option>
+      <option value="esv">ESV</option>
+    </select>
+    <button onclick="loadVerse()">Read</button>
+  </div>
+
+  <input type="text" id="search" placeholder="Search scripture and press Enter">
+</header>
+
+<main id="verses"></main>
+
+<footer>
+  <button onclick="readAloud()">🔊 Audio</button>
+  <button onclick="showBookmarks()">⭐ Bookmarks</button>
+  <button onclick="showDevotional()">📘 Devotional</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
